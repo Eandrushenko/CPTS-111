@@ -1,0 +1,95 @@
+players = {1 : "Deshon Foxx",
+           3 : "Russell Wilson",
+           4 : "Steven Hauschka",
+           7 : "Tarvaris Jackson",
+           9 : "Jon Ryan",
+           10 : "Paul Richardson",
+           12 : "Retired for the 12th man",
+           14 : "Antwan Goodley",
+           15 : "Jermaine Kearse",
+           16 : "Tyler Lockett",
+           17 : "Kevin Smith",
+           18 : "Kasen Williams",
+           19 : "Douglas McNeil III",
+           20 : "Jeremy Lane",
+           21 : "Tye Smith",
+           22 : "Fred Jackson",
+           23 : "Steven Terell",
+           24 : "Marshawn Lynch",
+           25 : "Richard Sherman",
+           27 : "Tharold Simon",
+           28 : "Marcus Burley",
+           29 : "Earl Thomas",
+           30 : "Stanley Jean-Baptiste",
+           31 : "Kam Chancellor",
+           32 : "Christine Michael",
+           33 : "Kelcie McCray",
+           34 : "Thomas Rawls",
+           35 : "DeShawn Shead",
+           36 : "Bryce Brown",
+           37 : "Trovon Reed",
+           39 : "Mohammed Seisay",
+           40 : "Derrick Coleman",
+           41 : "George Farmer",
+           42 : "Brandon Cottom",
+           44 : "Ryan Robinson",
+           46 : "Will Tukuafu",
+           47 : "Eric Pinkins",
+           49 : "Clint Gresham",
+           50 : "K.J. Wright",
+           51 : "Bruce Irvin",
+           52 : "Brock Coyle",
+           53 : "Nick Moody and Kona Schwenke",
+           54 : "Bobby Wagner",
+           55 : "Frank Clark",
+           56 : "Cliff Avril",
+           57 : "Mike Morgan",
+           58 : "Kevin Pierre-Louis",
+           61 : "Lemeul Jeanpierre",
+           62 : "Drew Nowak",
+           63 : "Mark Glowinski",
+           64 : "J.R. Sweezy",
+           65 : "Partrick Lewis",
+           67 : "Kristjan Sokoli",
+           68 : "Justin Britt",
+           69 : "Terry Poole",
+           71 : "Retired number for Walter Jones",
+           72 : "Michael Bennett",
+           75 : "Will Pericak",
+           76 : "Russell Okung",
+           77 : "Ahtyba Rubin",
+           78 : "Alvin Bailey",
+           79 : "Garry Gilliam",
+           80 : "Retired number for Steve Largent",
+           82 : "Luke Willson",
+           83 : "Ricardo Lockette",
+           84 : "Cooper Helfet",
+           85 : "Anthony McCoy",
+           86 : "Chase Coffman",
+           88 : "Jimmy Graham",
+           89 : "Doug Baldwin",
+           90 : "Jesse Williams",
+           91 : "Cassius Marsh",
+           92 : "Brandon Mebane",
+           95 : "Demarcus Dobbs",
+           96 : "Retired number for Cortez Kennedy",
+           97 : "Jordan Hill",
+           98 : "Justin Hamilton",
+           99 : "A.J. Francis"
+           }
+
+x = 6
+while x > 5:
+    number = int(input("Enter a jersey number: "))
+    if number in players:
+        print(players[number])
+        print("\n")
+    elif number < 0:
+        print("Program Stopped")
+        x = 1
+    elif number > 99:
+        print("Are you stupid?")
+        print("\n")
+    else:
+        print("Nobody on the Seattle roster wears that number")
+        print("\n")
